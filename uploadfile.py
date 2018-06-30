@@ -1,6 +1,6 @@
 import sys
 import os
-i
+import session
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
